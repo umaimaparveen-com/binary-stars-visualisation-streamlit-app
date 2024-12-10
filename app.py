@@ -4,7 +4,7 @@ import plotly.graph_objects as go
 
 # Function to get a single star data from user input
 def get_star_data():
-    st.title("Welcome to the Binary Star Plotting!")
+    st.title("Welcome to Stellar System HR Diagram Plotting!")
     
     star_name = st.text_input("Enter the star name:", key="star_name")
     if star_name:
